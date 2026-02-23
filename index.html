@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sans Vibes Millennium Garden</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <h1>Sans Vibes Millennium Garden</h1>
+  <p>Book Your Stay Directly</p>
+</header>
+
+<section class="booking-box">
+
+<h2>Reservasi Kamar</h2>
+
+<label>Tipe Kamar</label>
+<select id="room">
+  <option value="250000">Standard Room - Rp250.000</option>
+  <option value="350000">Deluxe Room - Rp350.000</option>
+  <option value="500000">Suite Room - Rp500.000</option>
+</select>
+
+<label>Check In</label>
+<input type="date" id="checkin">
+
+<label>Check Out</label>
+<input type="date" id="checkout">
+
+<label>Nama Tamu</label>
+<input type="text" id="nama" placeholder="Nama lengkap">
+
+<label>No WhatsApp</label>
+<input type="text" id="wa" placeholder="08xxxxxxxxxx">
+
+<h3>Total: Rp <span id="total">0</span></h3>
+
+<button onclick="hitung()">Hitung Harga</button>
+<button class="book" onclick="booking()">Booking Sekarang</button>
+
+</section>
+
+<footer>
+<p>© 2026 Sans Vibes Millennium Garden</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
